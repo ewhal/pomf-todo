@@ -64,6 +64,8 @@
 - Relicense to ISC (OpenBSD license)
 - Rewrite the code to support UNIX standard input
 - Finish writing docs
+- Create an OpenBSD Makefile
+- Add to OpenBSD ports
 
 ## pantsu/uguu
 
