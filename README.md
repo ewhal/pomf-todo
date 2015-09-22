@@ -11,7 +11,7 @@
 - Liberate `img/`
 - Write release notes to docs
 - Write one test?
-- Rewrite README.md to standard markdown (no three backticks for code)
+- Rewrite `README.md` to standard markdown (no three backticks for code)
 
 ### Release `1.1.1`
 
