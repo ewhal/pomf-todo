@@ -13,7 +13,7 @@
 - Write one test?
 - Rewrite README.md to standard markdown (no three backticks for code)
 
-## Release 1.1.1
+### Release 1.1.1
 
 - Replace Grunt imagemin task with pngquant variant
 - Make `bg.png` smaller
@@ -21,7 +21,7 @@
 - Make HTML response class better / more valid
   - Aim for a low amount of PHP code
 
-## Release 1.2.0
+### Release 1.2.0
 
 - More tests 
   - CSS
@@ -31,7 +31,7 @@
 - Deprecate Gyazo response
 - Zepto / jQuery rewrite
 
-## Release 2.0.0
+### Release 2.0.0
 
 - Rewrite upload API
   - Remove Gyazo response
