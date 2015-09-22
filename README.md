@@ -1,7 +1,5 @@
 # the Pantsu.cat developer team TODO list
 
-2015-09-22T18:36:05Z
-
 ## pantsu/pomf
 
 ### Release 1.1.0
