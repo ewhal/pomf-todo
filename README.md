@@ -46,7 +46,7 @@
 - PHPDoc
 - Getting help
 - Quick start
-- ...
+- …
 
 ## pantsu/status
 
@@ -69,7 +69,7 @@
 
 ## pantsu/uguu
 
-- ...
+- …
 
 ## wubthecaptain/fuuka
 
@@ -81,4 +81,4 @@
 - Essentially rewrite the dumper for 4chan API
   - Perl?
   - Go?
-- ...
+- …
