@@ -8,6 +8,7 @@
 - Write release notes to docs
 - Write one test?
 - Rewrite `README.md` to standard markdown (no three backticks for code)
+- Remove GitHub repository
 
 ### Release `1.1.1`
 
