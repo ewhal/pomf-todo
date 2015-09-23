@@ -17,6 +17,7 @@
   - Perhaps replace completely with pure CSS
 - Make HTML response class better / more valid
   - Aim for a low amount of PHP code
+- Remove more moe code from `upload_file()`
 
 ### Release `1.2.0`
 
