@@ -11,7 +11,7 @@
 
 ### Release `1.1.1`
 
-- Replace Grunt imagemin task with pngquant variant
+- Remove Grunt imagemin task
 - Make `bg.png` smaller
   - Perhaps replace completely with pure CSS
 - Make HTML response class better / more valid
