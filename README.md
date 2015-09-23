@@ -9,6 +9,7 @@
 - Write one test?
 - Rewrite `README.md` to standard markdown (no three backticks for code)
 - Remove GitHub repository
+- Fix broken JavaScript coming from early jshint branch merge
 
 ### Release `1.1.1`
 
