@@ -29,6 +29,7 @@
   - Checking if copyright headers exist
 - Deprecate Gyazo response
 - Zepto / jQuery rewrite
+- Add UTF-8 file name support
 
 ### Release `2.0.0`
 
