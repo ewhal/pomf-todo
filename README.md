@@ -4,10 +4,7 @@
 
 ### Release `1.1.0`
 
-- Merge `update-depends` to `master`
 - Go through history to see if version 2.0.0 is really a better choice
-- Update `package.json` with new Git URLs
-- Fix LibreJS `@source`
 - Liberate `img/`
 - Write release notes to docs
 - Write one test?
