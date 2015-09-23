@@ -26,6 +26,7 @@
   - JSCS
   - HTML?
   - PHP
+  - Checking if copyright headers exist
 - Deprecate Gyazo response
 - Zepto / jQuery rewrite
 
