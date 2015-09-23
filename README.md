@@ -4,10 +4,7 @@
 
 ### Release `1.1.0`
 
-- Merge `update-depends` to `master`
 - Go through history to see if version 2.0.0 is really a better choice
-- Update `package.json` with new Git URLs
-- Fix LibreJS `@source`
 - Liberate `img/`
 - Write release notes to docs
 - Write one test?
@@ -37,10 +34,10 @@
   - Remove Gyazo response
   - Decide if `status` / `errorcodes` are bad or not
     - Use HTTP responses like any sane API, don't reinvent the wheel
+- Implement protection against Cross-Site Request Forgeries
 
 ## pantsu/docs
 
-- Publish LICENSE
 - Document the API
 - JSDoc
 - PHPDoc
