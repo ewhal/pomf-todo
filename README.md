@@ -9,6 +9,7 @@
 - Write one test?
 - Remove GitHub repository
 - Fix broken JavaScript coming from early jshint branch merge
+- Add copyright headers to all files
 
 ### Release `1.1.1`
 
