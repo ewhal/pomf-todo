@@ -34,6 +34,7 @@
   - Remove Gyazo response
   - Decide if `status` / `errorcodes` are bad or not
     - Use HTTP responses like any sane API, don't reinvent the wheel
+- Implement protection against Cross-Site Request Forgeries
 
 ## pantsu/docs
 
