@@ -39,6 +39,9 @@
     - Use HTTP responses like any sane API, don't reinvent the wheel
 - Implement protection against Cross-Site Request Forgeries
 - Refactor PHP code by adding namespaces
+- Remove Grunt and its dependencies
+  - Replace with Make or something more sane
+  - http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/
 
 ## pantsu/docs
 
