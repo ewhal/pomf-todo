@@ -29,6 +29,8 @@
 - Zepto / jQuery rewrite
 - Add UTF-8 file name support
 - Add exception handling (try{}) to initial database connection
+- Clean up CSS
+  - Use CSSLint for example, but don't blindly follow it
 
 ### Release `2.0.0`
 
