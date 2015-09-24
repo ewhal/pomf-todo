@@ -45,7 +45,6 @@
 
 ## pantsu/docs
 
-- Publish LICENSE
 - Document the API
 - JSDoc
 - PHPDoc
