@@ -38,12 +38,12 @@
   - Remove Gyazo response
   - Decide if `status` / `errorcodes` are bad or not
     - Use HTTP responses like any sane API, don't reinvent the wheel
-  - Move to an api-subdomain (e.g. https://api.pantsu.cat/v2/upload/)
+  - Move to an api-subdomain (e.g. <https://api.pantsu.cat/v2/upload/>)
 - Implement protection against Cross-Site Request Forgeries
 - Refactor PHP code by adding namespaces
 - Remove Grunt and its dependencies
   - Replace with Make or something more sane
-  - http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/
+  - <http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/>
 
 ## pantsu/docs
 
