@@ -7,7 +7,6 @@
 - Go through history to see if version 2.0.0 is really a better choice
 - Write release notes to docs
 - Write one test?
-- Remove GitHub repository
 - Fix broken JavaScript coming from early `jshint` branch merge
 
 ### Release `1.1.1`
