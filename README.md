@@ -100,3 +100,4 @@
   - GNU Mailman
   - OpenSMTPd
 - Add IPv6 support
+- Distribute services across multiple IPv4-addresses
