@@ -14,6 +14,7 @@
 - Remove more moe code from `upload_file()`
 - Replace JSHint with ESLint
 - Fix three "JSHint" violations in `js/pomf.js`
+  - Up for a challenge? Fix the remaining ESLint errors (`eslint:recommended`).
 
 ### Release `1.2.0`
 
