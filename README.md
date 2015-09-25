@@ -12,12 +12,13 @@
   - Feature planned for Gogs 0.8.0 release
   - Disable on nginx side until then or modify Gogs code to return an error
 - Remove more moe code from `upload_file()`
+- Replace JSHint with ESLint
 
 ### Release `1.2.0`
 
 - More tests 
   - CSS
-  - JSCS
+  - JavaScript
   - HTML?
   - PHP
   - Checking if copyright headers exist
