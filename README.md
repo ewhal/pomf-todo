@@ -14,6 +14,7 @@
 - Remove more moe code from `upload_file()`
 - Replace JSHint with ESLint
 - Fix three "JSHint" violations in `js/pomf.js`
+- Replace upload button `<a>` with semantic `<button>`
 
 ### Release `1.2.0`
 
