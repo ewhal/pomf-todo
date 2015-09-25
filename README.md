@@ -90,3 +90,9 @@
   - Perl?
   - Go?
 - …
+
+## Generic tasks
+
+- Setup a mailing list
+  - GNU Mailman
+  - OpenSMTPd
