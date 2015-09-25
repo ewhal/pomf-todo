@@ -15,7 +15,6 @@
 
 ### Release `1.1.1`
 
-- Remove Grunt imagemin task
 - Make `bg.png` smaller
   - Perhaps replace completely with pure CSS
 - Make HTML response class better / more valid
@@ -35,6 +34,7 @@
 - Add exception handling (`try{}`) to initial database connection
 - Clean up CSS
   - Use CSSLint for example, but don't blindly follow it
+- Remove Grunt imagemin task
 
 ### Release `2.0.0`
 
