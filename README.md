@@ -11,6 +11,7 @@
 - Disable issue tracker on git.pantsu.cat
   - Feature planned for Gogs 0.8.0 release
   - Disable on nginx side until then or modify Gogs code to return an error
+- Remove more moe code from `upload_file()`
 
 ### Release `1.1.1`
 
@@ -19,7 +20,6 @@
   - Perhaps replace completely with pure CSS
 - Make HTML response class better / more valid
   - Aim for a low amount of PHP code
-- Remove more moe code from `upload_file()`
 
 ### Release `1.2.0`
 
