@@ -17,8 +17,6 @@
 
 - Make `bg.png` smaller
   - Perhaps replace completely with pure CSS
-- Make HTML response class better / more valid
-  - Aim for a low amount of PHP code
 
 ### Release `1.2.0`
 
