@@ -33,6 +33,7 @@
 - Remove Grunt imagemin task
 - Make `bg.png` smaller
   - Perhaps replace completely with pure CSS
+- Replace `href="javascript:;"` with addEventListener
 
 ### Release `2.0.0`
 
