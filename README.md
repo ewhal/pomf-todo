@@ -99,3 +99,4 @@
 - Setup a mailing list
   - GNU Mailman
   - OpenSMTPd
+- Add IPv6 support
