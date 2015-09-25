@@ -94,7 +94,7 @@
   - Go?
 - …
 
-## Generic tasks
+## Pantsu.cat sysadmin tasks
 
 - Setup a mailing list
   - GNU Mailman
