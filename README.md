@@ -13,6 +13,7 @@
   - Disable on nginx side until then or modify Gogs code to return an error
 - Remove more moe code from `upload_file()`
 - Replace JSHint with ESLint
+- Fix three "JSHint" violations in `js/pomf.js`
 
 ### Release `1.2.0`
 
