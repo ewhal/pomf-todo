@@ -13,11 +13,6 @@
   - Disable on nginx side until then or modify Gogs code to return an error
 - Remove more moe code from `upload_file()`
 
-### Release `1.1.1`
-
-- Make `bg.png` smaller
-  - Perhaps replace completely with pure CSS
-
 ### Release `1.2.0`
 
 - More tests 
@@ -33,6 +28,8 @@
 - Clean up CSS
   - Use CSSLint for example, but don't blindly follow it
 - Remove Grunt imagemin task
+- Make `bg.png` smaller
+  - Perhaps replace completely with pure CSS
 
 ### Release `2.0.0`
 
