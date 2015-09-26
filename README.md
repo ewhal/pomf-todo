@@ -33,7 +33,6 @@
 - Make `bg.png` smaller
   - Perhaps replace completely with pure CSS
 - Replace `href="javascript:;"` with addEventListener
-- Replace upload button `<a>` with semantic `<button>`
 
 ### Release `3.0.0`
 
