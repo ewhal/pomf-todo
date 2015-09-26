@@ -2,9 +2,8 @@
 
 ## pantsu/pomf
 
-### Release `1.1.0`
+### Release `2.0.0`
 
-- Go through history to see if version 2.0.0 is really a better choice
 - Write release notes to docs
 - Write one test?
 - Sort translated pages to subfolders, such as `/pages/en/` and `/pages/ca/`
@@ -16,7 +15,7 @@
 - Fix three "JSHint" violations in `js/pomf.js`
   - Up for a challenge? Fix the remaining ESLint errors (`eslint:recommended`).
 
-### Release `1.2.0`
+### Release `2.1.0`
 
 - More tests 
   - CSS
@@ -36,7 +35,7 @@
 - Replace `href="javascript:;"` with addEventListener
 - Replace upload button `<a>` with semantic `<button>`
 
-### Release `2.0.0`
+### Release `3.0.0`
 
 - Rewrite upload API
   - Remove Gyazo response
