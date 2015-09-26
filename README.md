@@ -14,6 +14,9 @@
 - Replace JSHint with ESLint
 - Fix three "JSHint" violations in `js/pomf.js`
   - Up for a challenge? Fix the remaining ESLint errors (`eslint:recommended`).
+- Test if `case 413` workaround is still necessary in `js/pomf.js`
+  - What is this `<div/>`? Is it even valid markup in this scenario? Do we need
+    it?
 
 ### Release `2.1.0`
 
