@@ -9,7 +9,6 @@
 - Disable issue tracker on git.pantsu.cat
   - Feature planned for Gogs 0.8.0 release
   - Disable on nginx side until then or modify Gogs code to return an error
-- Remove more moe code from `upload_file()`
 - Replace JSHint with ESLint
 - Fix three "JSHint" violations in `js/pomf.js`
   - Up for a challenge? Fix the remaining ESLint errors (`eslint:recommended`).
