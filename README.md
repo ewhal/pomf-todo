@@ -6,7 +6,6 @@
 
 - Write release notes to docs
 - Write one test?
-- Sort translated pages to subfolders, such as `/pages/en/` and `/pages/ca/`
 - Disable issue tracker on git.pantsu.cat
   - Feature planned for Gogs 0.8.0 release
   - Disable on nginx side until then or modify Gogs code to return an error
@@ -50,6 +49,8 @@
   - <http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/>
 - Replace jQuery code with vanilla JavaScript
   - <http://youmightnotneedjquery.com/>
+- Sort translated pages to subfolders, such as `/pages/en/` and `/pages/ca/`
+  - Requires modifying js/pomf.js to look for the right upload.php (or API)
 
 ## pantsu/docs
 
