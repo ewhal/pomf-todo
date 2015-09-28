@@ -10,8 +10,7 @@
   - Feature planned for Gogs 0.8.0 release
   - Disable on nginx side until then or modify Gogs code to return an error
 - Replace JSHint with ESLint
-- Fix three "JSHint" violations in `js/pomf.js`
-  - Up for a challenge? Fix the remaining ESLint errors (`eslint:recommended`).
+- Fix the remaining ESLint errors (`eslint-config-airbnb-es5`)
 
 ### Release `2.1.0`
 
