@@ -11,6 +11,7 @@
   - Disable on nginx side until then or modify Gogs code to return an error
 - Replace JSHint with ESLint
 - Fix the remaining ESLint errors (`airbnb/legacy`)
+  - Go back and fix the JSCS errors in `refactor-cheesesteak` branch
 
 ### Release `2.1.0`
 
