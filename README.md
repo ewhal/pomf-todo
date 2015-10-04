@@ -31,6 +31,7 @@
 - Make `bg.png` smaller
   - Perhaps replace completely with pure CSS
 - Rewrite JavaScript to ES6 using eslint-config-airbnb
+- Add Flash-free clipboard for copying uploaded file links
 
 ### Release `3.0.0`
 
