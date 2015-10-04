@@ -88,7 +88,7 @@
 - Publish Git repository
 - Apply patches to replicate what's at Rebecca Black Tech
 - Inform eksopl of the new Git repository
-- Read `BUGS.txt` and cry ;_;
+- Read `BUGS.txt` and cry ;\_;
   - Fix arbitrary redirection vulnerability
 - Essentially rewrite the dumper for 4chan API
   - Perl?
