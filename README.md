@@ -21,7 +21,6 @@
   - HTML?
   - PHP
   - Checking if copyright headers exist
-- Deprecate Gyazo response
 - Zepto / jQuery rewrite
 - Add UTF-8 file name support
 - Add exception handling (`try{}`) to initial database connection
