@@ -12,7 +12,7 @@
 - Replace JSHint with ESLint
 - Fix the remaining ESLint errors (`airbnb/legacy`)
   - Go back and fix the JSCS errors in `refactor-cheesesteak` branch
-- Rewrite CSV response code to use `fputcsv()`
+- Rewrite CSV response code to use `array()`
 - Remove unused `delid`/file expiration code
 
 ### Release `2.1.0`
