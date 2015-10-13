@@ -8,6 +8,7 @@
 - Write one test?
 - Fix the remaining ESLint errors (`airbnb/legacy`)
 - Rewrite CSV response code to use `array()`
+- Fix an issue with `bannersca.json` not being displayed
 
 ### Release `2.1.0`
 
