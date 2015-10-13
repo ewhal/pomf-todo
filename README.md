@@ -22,7 +22,6 @@
 - Add exception handling (`try{}`) to initial database connection
 - Clean up CSS
   - Use CSSLint for example, but don't blindly follow it
-- Remove Grunt imagemin task
 - Make `bg.png` smaller
   - Perhaps replace completely with pure CSS
 - Rewrite JavaScript to ES6 using eslint-config-airbnb
