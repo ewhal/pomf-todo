@@ -6,7 +6,6 @@
 
 - Write release notes to docs
 - Write one test?
-- Replace JSHint with ESLint
 - Fix the remaining ESLint errors (`airbnb/legacy`)
 - Rewrite CSV response code to use `array()`
 
