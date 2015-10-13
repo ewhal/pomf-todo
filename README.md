@@ -6,9 +6,6 @@
 
 - Write release notes to docs
 - Write one test?
-- Disable issue tracker on git.pantsu.cat
-  - Feature planned for Gogs 0.8.0 release
-  - Disable on nginx side until then or modify Gogs code to return an error
 - Replace JSHint with ESLint
 - Fix the remaining ESLint errors (`airbnb/legacy`)
   - Go back and fix the JSCS errors in `refactor-cheesesteak` branch
@@ -103,3 +100,6 @@
   - OpenSMTPd
 - Add IPv6 support
 - Distribute services across multiple IPv4-addresses
+- Disable issue tracker on pantsu repositories
+  - Feature planned for Gogs 0.8.0 release
+  - Disable on nginx side until then or modify Gogs code to return an error
