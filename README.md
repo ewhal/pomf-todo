@@ -8,7 +8,6 @@
 - Write one test?
 - Fix the remaining ESLint errors (`airbnb/legacy`)
 - Rewrite CSV response code to use `array()`
-- Fix an issue with `bannersca.json` not being displayed
 
 ### Release `2.1.0`
 
@@ -27,6 +26,7 @@
   - Perhaps replace completely with pure CSS
 - Rewrite JavaScript to ES6 using eslint-config-airbnb
 - Add Flash-free clipboard for copying uploaded file links
+- Add internationalization support
 
 ### Release `3.0.0`
 
