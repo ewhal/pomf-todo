@@ -43,8 +43,6 @@
   - <http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/>
 - Replace jQuery code with vanilla JavaScript
   - <http://youmightnotneedjquery.com/>
-- Sort translated pages to subfolders, such as `/pages/en/` and `/pages/ca/`
-  - Requires modifying js/pomf.js to look for the right upload.php (or API)
 
 ## pantsu/docs
 
