@@ -28,6 +28,7 @@
 - Rewrite JavaScript to ES6 using eslint-config-airbnb
 - Add Flash-free clipboard for copying uploaded file links
 - Add internationalization support
+  - May require swapping Swig templates for Mustache or Handlebars
 
 ### Release `3.0.0`
 
