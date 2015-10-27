@@ -8,7 +8,6 @@
 - Write one test?
 - Fix the remaining ESLint errors (`airbnb/legacy`)
   - This includes `Gruntfile.js`
-- Rewrite CSV response code to use `array()`
 
 ### Release `2.1.0`
 
