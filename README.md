@@ -11,6 +11,8 @@
 - Review and merge `wubthecaptain/pomf` branches
   - `add-git-mailmap`
   - `cleanup-css`
+- Fix empty Gyazo response bug in WubTheCaptain's `refactor-response-api`
+  branch
 
 ### Release `2.1.0`
 
