@@ -8,9 +8,6 @@
 - Write one test?
 - Fix the remaining ESLint errors (`airbnb/legacy`)
   - This includes `Gruntfile.js`
-- Review and merge `wubthecaptain/pomf` branches
-  - `add-git-mailmap`
-  - `cleanup-css`
 - Fix empty Gyazo response bug in WubTheCaptain's `refactor-response-api`
   branch
 
