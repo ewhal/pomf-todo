@@ -92,6 +92,3 @@
   - OpenSMTPd
 - Add IPv6 support
 - Distribute services across multiple IPv4-addresses
-- Disable issue tracker on pantsu repositories
-  - Feature planned for Gogs 0.8.0 release
-  - Disable on nginx side until then or modify Gogs code to return an error
