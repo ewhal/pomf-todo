@@ -34,6 +34,7 @@
   - Decide if `status` / `errorcodes` are bad or not
     - Use HTTP responses like any sane API, don't reinvent the wheel
   - Move to an api-subdomain (e.g. <https://api.pantsu.cat/v2/files/>)
+  - Merge Wub's `application/vnd.api+json` patch
 - Implement protection against Cross-Site Request Forgeries
 - Refactor PHP code by adding namespaces
 - Remove Grunt and its dependencies
