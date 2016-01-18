@@ -10,7 +10,6 @@
   - HTML?
   - PHP
   - Checking if copyright headers exist
-- Zepto / jQuery rewrite
 - Add UTF-8 file name support
 - Add exception handling (`try{}`) to initial database connection
 - Clean up CSS
@@ -34,8 +33,6 @@
 - Remove Grunt and its dependencies
   - Replace with Make or something more sane
   - <http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/>
-- Replace jQuery code with vanilla JavaScript
-  - <http://youmightnotneedjquery.com/>
 
 ## pantsu/docs
 
