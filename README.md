@@ -27,6 +27,8 @@
 - Add Flash-free clipboard for copying uploaded file links
 - Add internationalization support
   - May require swapping Swig templates for Mustache or Handlebars
+- Clean up and refactor Luminarys' new JavaScript
+  - Lots of duplicate code
 
 ### Release `3.0.0`
 
