@@ -23,6 +23,7 @@
 - Make `bg.png` smaller
   - Perhaps replace completely with pure CSS
 - Rewrite JavaScript to ES6 using eslint-config-airbnb
+  - Our build system may not support ES6. Does it?
 - Add Flash-free clipboard for copying uploaded file links
 - Add internationalization support
   - May require swapping Swig templates for Mustache or Handlebars
