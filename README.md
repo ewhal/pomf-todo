@@ -29,6 +29,9 @@
   - May require swapping Swig templates for Mustache or Handlebars
 - Clean up and refactor Luminarys' new JavaScript
   - Lots of duplicate code
+- Figure out what to do with dead `no-file-api` code
+  - Remove it?
+  - Reimplement it?
 
 ### Release `3.0.0`
 
