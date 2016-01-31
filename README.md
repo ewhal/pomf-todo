@@ -4,8 +4,6 @@
 
 ### Release `2.0.1`
 
-- Write missing release notes for `2.0.0`
-- Write release notes for `2.0.1`
 - Publish signed tarballs somewhere
 
 ### Release `2.1.0`
