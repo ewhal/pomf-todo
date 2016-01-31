@@ -6,6 +6,10 @@
 
 - Publish signed tarballs somewhere
 
+### Release `2.0.2`
+
+- Replace potentially non-free `UploadException.class.php`
+
 ### Release `2.1.0`
 
 - More tests 
