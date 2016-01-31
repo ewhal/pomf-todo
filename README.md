@@ -26,6 +26,7 @@
 - Clean up and refactor Luminarys' new JavaScript
   - Finish writing up JSDoc comments (`luminarys/refactor-js-pu`)
   - Reimplement `no-file-api`
+- Create a better `CONTRIBUTING.md` file
 
 ### Release `3.0.0`
 
