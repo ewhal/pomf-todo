@@ -8,25 +8,28 @@
 
 ### Release `2.1.0`
 
-- More tests 
-  - CSS
-  - JavaScript
-  - HTML?
-  - PHP
-  - Checking if copyright headers exist
 - Add UTF-8 file name support
 - Add exception handling (`try{}`) to initial database connection
 - Clean up CSS
   - Use CSSLint for example, but don't blindly follow it
 - Make `bg.png` smaller
   - Perhaps replace completely with pure CSS
-- Add Flash-free clipboard for copying uploaded file links
-- Add internationalization support
-  - May require swapping Swig templates for Mustache or Handlebars
 - Clean up and refactor Luminarys' new JavaScript
   - Finish writing up JSDoc comments (`luminarys/refactor-js-pu`)
   - Reimplement `no-file-api`
 - Create a better `CONTRIBUTING.md` file
+
+### Release `2.2.0`
+
+- More tests
+  - CSS
+  - JavaScript
+  - HTML?
+  - PHP
+  - Checking if copyright headers exist
+- Add Flash-free clipboard for copying uploaded file links
+- Add internationalization support
+  - May require swapping Swig templates for Mustache or Handlebars
 
 ### Release `3.0.0`
 
