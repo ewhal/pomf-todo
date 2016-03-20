@@ -12,6 +12,9 @@
 - Add exception handling (`try{}`) to initial database connection
 - Clean up CSS
   - Use CSSLint for example, but don't blindly follow it
+  - Related: Replace `#upload-btn` with `.js-upload-btn` to be explicit it has
+    no styles
+  - <http://philipwalton.com/articles/css-architecture/>
 - Make `bg.png` smaller
   - Perhaps replace completely with pure CSS
 - Clean up and refactor Luminarys' new JavaScript
