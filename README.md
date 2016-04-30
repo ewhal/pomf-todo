@@ -47,6 +47,9 @@
 - Remove Grunt and its dependencies
   - Replace with Make or something more sane
   - <http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/>
+  - **I urge to hurry with this.** `grunt-swig` requires an older `0.4.x`
+    version of Grunt which I assume is no longer supported. Expected package
+    breakage with NPM version `6.0.x` and later.
 - Rewrite JavaScript to ES6 using eslint-config-airbnb
   - Our build system may not support ES6. Does it?
 - Replace `nojs.html` with `<noscript>`-like fallback
