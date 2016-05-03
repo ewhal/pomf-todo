@@ -5,6 +5,7 @@
 ### Release `2.0.2`
 
 - Replace potentially non-free `UploadException.class.php`
+- See which `include_once` statements need to be replaced with `require_once`
 
 ### Release `2.1.0`
 
