@@ -22,6 +22,7 @@
   - Finish writing up JSDoc comments (`luminarys/refactor-js-pu`)
   - Reimplement `no-file-api`
 - Create a better `CONTRIBUTING.md` file
+- Finish rewriting the FAQ into a `<dl>` description list
 
 ### Release `2.2.0`
 
