@@ -23,6 +23,7 @@
   - Reimplement `no-file-api`
 - Create a better `CONTRIBUTING.md` file
 - Finish rewriting the FAQ into a `<dl>` description list
+- Lint PHP again (`phpmd`, `php-codesniffer` etc)
 
 ### Release `2.2.0`
 
