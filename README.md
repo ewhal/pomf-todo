@@ -9,8 +9,6 @@
 
 ### Release `2.1.0`
 
-- Add UTF-8 file name support
-- Add exception handling (`try{}`) to initial database connection
 - Clean up CSS
   - Use CSSLint for example, but don't blindly follow it
   - Related: Replace `#upload-btn` with `.js-upload-btn` to be explicit it has
@@ -29,6 +27,8 @@
 
 ### Release `2.2.0`
 
+- Add UTF-8 file name support
+- Add exception handling (`try{}`) to initial database connection
 - More tests
   - CSS
   - JavaScript
