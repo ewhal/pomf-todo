@@ -60,6 +60,7 @@
 - Rewrite JavaScript to ES6 using eslint-config-airbnb
   - Our build system may not support ES6. Does it?
 - Replace `nojs.html` with `<noscript>`-like fallback
+- Merge alchimist's `expire` removal from MySQL schema and `upload.php`
 
 ## pantsu/docs
 
