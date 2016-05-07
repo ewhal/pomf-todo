@@ -38,6 +38,7 @@
 - Add Flash-free clipboard for copying uploaded file links
 - Add internationalization support
   - May require swapping Swig templates for Mustache or Handlebars
+- Incorporate alchimist's SHA256 hashing to replace SHA1
 
 ### Release `3.0.0`
 
