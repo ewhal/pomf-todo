@@ -1,6 +1,6 @@
 WubTheCaptain - the Pantsu.cat developer team TODO list
 
-Written in 2015 by Juuso Lapinlampi <wub@partyvan.eu>
+Written in 2015, 2016 by Juuso Lapinlampi <wub@partyvan.eu>
 
 To the extent possible under law, the author(s) have dedicated all copyright 
 and related and neighboring rights to this work to the public domain worldwide. 
