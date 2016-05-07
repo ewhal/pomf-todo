@@ -27,7 +27,6 @@
 
 ### Release `2.2.0`
 
-- Add UTF-8 file name support
 - Add exception handling (`try{}`) to initial database connection
 - More tests
   - CSS
