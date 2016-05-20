@@ -2,7 +2,7 @@
 
 ## pantsu/pomf
 
-### Release `2.0.2`
+### Release `2.0.3`
 
 - Replace potentially non-free `UploadException.class.php`
 - See which `include_once` statements need to be replaced with `require_once`
