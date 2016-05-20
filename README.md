@@ -13,6 +13,7 @@
   - Use CSSLint for example, but don't blindly follow it
   - Related: Replace `#upload-btn` with `.js-upload-btn` to be explicit it has
     no styles
+  - Use flexbox
   - <http://philipwalton.com/articles/css-architecture/>
 - Make `bg.png` smaller
   - Perhaps replace completely with pure CSS
