@@ -24,6 +24,8 @@
 - Lint PHP again (`phpmd`, `php-codesniffer` etc)
 - Add a `<label>` element or `title=` attribute to uploader in `index.swig` and
   `nojs.swig`
+- Fix/add handling for temporary files for which uploads have failed (remove or
+  move them)
 
 ### Release `2.2.0`
 
