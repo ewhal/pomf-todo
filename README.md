@@ -10,8 +10,14 @@
 
 - Clean up CSS
   - Use CSSLint for example, but don't blindly follow it
-  - Related: Replace `#upload-btn` with `.js-upload-btn` to be explicit it has
-    no styles
+  - Related: Replace `#upload-btn` with `.js-upload-btn` or HTML data attributes
+    (`[data-js="upload-btn"]` or similar) to be explicit it has no styles
+    - Downside of using data attributes: it's fucking slow. But it will get
+      better as JavaScript engines get optimized.
+    - Using data attributes would seperate JS and CSS.
+    - `.js-*` classes are never guaranteed to not to be touched by browsers, and
+      not exactly what WHATWG wants to suggest for scripting (WHATWG HTML
+      Standard, 1.7.3 Extensibility).
   - Use flexbox
   - <http://philipwalton.com/articles/css-architecture/>
 - Make `bg.png` smaller
