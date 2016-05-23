@@ -19,6 +19,7 @@
 - Clean up and refactor Luminarys' new JavaScript
   - Finish writing up JSDoc comments (`luminarys/refactor-js-pu`)
   - Reimplement `no-file-api`
+  - Stop hardcoding original button text, grab it from the HTML element
 - Create a better `CONTRIBUTING.md` file
 - Finish rewriting the FAQ into a `<dl>` description list
 - Lint PHP again (`phpmd`, `php-codesniffer` etc)
