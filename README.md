@@ -47,6 +47,7 @@
 - Add internationalization support
   - May require swapping Swig templates for Mustache or Handlebars
 - Incorporate alchimist's SHA256 hashing to replace SHA1
+- Add SQLite support
 
 ### Release `3.0.0`
 
