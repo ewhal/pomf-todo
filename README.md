@@ -49,13 +49,8 @@
 
 ### Release `3.0.0`
 
-- Rewrite upload API
-  - Remove Gyazo response
-  - Decide if `status` / `errorcodes` are bad or not
-    - Use HTTP responses like any sane API, don't reinvent the wheel
-  - Move to an api-subdomain (e.g. <https://api.pantsu.cat/v2/files/>)
-  - Merge Wub's `application/vnd.api+json` patch
-  - Don't forget the more obscure HTTP methods such as `OPTIONS`
+- Remove Gyazo response
+- Merge Wub's `application/vnd.api+json` patch
 - Implement protection against Cross-Site Request Forgeries
 - Refactor PHP code by adding namespaces
 - Remove Grunt and its dependencies
@@ -71,9 +66,17 @@
 - Remove `ob_start`
 - Split `upload.php` into a common file class for file functions and the
   last ~15 lines of code for handling the upload and response
+- Seperate default settings and local settings
+
+### Release `4.0.0`
+
+- Rewrite upload API
+  - Decide if `status` / `errorcodes` are bad or not
+    - Use HTTP responses like any sane API, don't reinvent the wheel
+  - Move to an api-subdomain (e.g. <https://api.pantsu.cat/v2/files/>)
+  - Don't forget the more obscure HTTP methods such as `OPTIONS`
 - Add internationalization support
   - May require swapping Swig templates for Mustache or Handlebars
-- Seperate default settings and local settings
 
 ## pantsu/docs
 
