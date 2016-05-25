@@ -129,4 +129,3 @@
   - OpenSMTPd
 - Add IPv6 support
 - Distribute services across multiple IPv4-addresses
-- Setup cgit to replace gogs
