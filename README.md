@@ -73,6 +73,7 @@
   last ~15 lines of code for handling the upload and response
 - Add internationalization support
   - May require swapping Swig templates for Mustache or Handlebars
+- Seperate default settings and local settings
 
 ## pantsu/docs
 
