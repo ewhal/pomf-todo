@@ -44,8 +44,6 @@
   - PHP
   - Checking if copyright headers exist
 - Add Flash-free clipboard for copying uploaded file links
-- Add internationalization support
-  - May require swapping Swig templates for Mustache or Handlebars
 - Incorporate alchimist's SHA256 hashing to replace SHA1
 - Add SQLite support
 
@@ -73,6 +71,8 @@
 - Remove `ob_start`
 - Split `upload.php` into a common file class for file functions and the
   last ~15 lines of code for handling the upload and response
+- Add internationalization support
+  - May require swapping Swig templates for Mustache or Handlebars
 
 ## pantsu/docs
 
