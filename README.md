@@ -83,7 +83,6 @@
 - Document the API
   - <http://bradfults.com/the-best-api-documentation/>
 - JSDoc
-- PHPDoc
 - Getting help
 - Quick start
 - …
