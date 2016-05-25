@@ -71,6 +71,8 @@
 - Replace `nojs.html` with `<noscript>`-like fallback
 - Merge alchimist's `expire` removal from MySQL schema and `upload.php`
 - Remove `ob_start`
+- Split `upload.php` into a common file class for file functions and the
+  last ~15 lines of code for handling the upload and response
 
 ## pantsu/docs
 
