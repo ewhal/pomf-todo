@@ -73,7 +73,7 @@
 - Rewrite upload API
   - Decide if `status` / `errorcodes` are bad or not
     - Use HTTP responses like any sane API, don't reinvent the wheel
-  - Move to an api-subdomain (e.g. <https://api.pantsu.cat/v2/files/>)
+  - Move to an api-subdomain (e.g. <https://api.pantsu.cat/files/>)
   - Don't forget the more obscure HTTP methods such as `OPTIONS`
 - Add internationalization support
   - May require swapping Swig templates for Mustache or Handlebars
