@@ -46,6 +46,7 @@
 - Add Flash-free clipboard for copying uploaded file links
 - Incorporate alchimist's SHA256 hashing to replace SHA1
 - Add SQLite support
+- Increase visibility of contact and copyright takedown pages
 
 ### Release `3.0.0`
 
