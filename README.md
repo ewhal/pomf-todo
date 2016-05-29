@@ -70,6 +70,8 @@
 - Seperate default settings and local settings
   - This will also avoid an issue where files are uploaded to webroot with
     filename `POMF_FILES_ROOTabcdef.ext` if `POMF_FILES_ROOT` is undefined.
+- Reduce default `{{max_upload_size}}` back to original `50 MiB` or a more
+  common `100 MiB` used with CloudFlare setups
 
 ### Release `4.0.0`
 
