@@ -5,6 +5,19 @@
 ### Release `2.0.3`
 
 - Replace potentially non-free `UploadException.class.php`
+- Fix a bug where Response class `error()` function may blow up and return an
+  invalid HTTP status code `42` if `PDO::ATTR_ERRMODE` is set to
+  `PDO::ERRMODE_EXCEPTION` during PDO initialization or query. By default, it is
+  implicitly set to `PDO::ERRMODE_SILENT`. This bug can occur when a MySQL
+  server is running, but encounters an error post-login (e.g. table doesn't
+  exist).
+  - Example response: `{ "success": false, "errorcode": "42S02", "description":
+  "SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pomf.files'
+  doesn't exist" }`.
+  - PHP `stderr` output: `[Sun May 29 07:29:32 2016] PHP Notice:  A non well
+  formed numeric value encountered in
+  /home/wub/code/pantsu/pomf/dist/classes/Response.class.php on line 81`, where
+  line 81 is `http_response_code($code);`.
 
 ### Release `2.1.0`
 
