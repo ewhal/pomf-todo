@@ -68,6 +68,8 @@
 - Split `upload.php` into a common file class for file functions and the
   last ~15 lines of code for handling the upload and response
 - Seperate default settings and local settings
+  - This will also avoid an issue where files are uploaded to webroot with
+    filename `POMF_FILES_ROOTabcdef.ext` if `POMF_FILES_ROOT` is undefined.
 
 ### Release `4.0.0`
 
