@@ -20,6 +20,9 @@
       Standard, 1.7.3 Extensibility).
   - Use flexbox
   - <http://philipwalton.com/articles/css-architecture/>
+  - Restructure styles into base stylesheets (`layout.css`), components
+    (`alerts.css`, `buttons.css`, `nav.css`) and modules (`header.css`,
+    `footer.css`), then integrate into build system for concatenation
 - Make `bg.png` smaller
   - Perhaps replace completely with pure CSS
 - Clean up and refactor Luminarys' new JavaScript
