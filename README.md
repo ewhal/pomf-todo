@@ -34,6 +34,9 @@
   `nojs.swig`
 - Fix/add handling for temporary files for which uploads have failed (remove or
   move them)
+- Change or remove suggested web browsers to install in `check_fileapi.swig`
+  - Chrome is a non-free web browser. Chromium is free/libre software.
+  - Firefox suggests installing non-free addons. GNU IceCat does not.
 
 ### Release `2.2.0`
 
