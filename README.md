@@ -5,6 +5,7 @@
 ### Release `2.0.3`
 
 - Replace potentially non-free `UploadException.class.php`
+- Fix abbreviation of `<3` in `check_fileapi.swig`
 
 ### Release `2.1.0`
 
