@@ -95,6 +95,7 @@ facing in here.
     - Use HTTP responses like any sane API, don't reinvent the wheel
   - Move to an api-subdomain (e.g. <https://api.pantsu.cat/files/>)
   - Don't forget the more obscure HTTP methods such as `OPTIONS`
+  - Consider adding JSON-P response type
 - Add internationalization support
   - May require swapping Swig templates for Mustache or Handlebars
 
