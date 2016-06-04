@@ -30,16 +30,11 @@
   - Stop hardcoding original button text, grab it from the HTML element
   - Set `XMLHttpRequest.open()` URL to `form.action` (`HTMLFormElement.action`)
     instead of hardcoding `'/upload.php'`
-- Create a better `CONTRIBUTING.md` file
-- Finish rewriting the FAQ into a `<dl>` description list
 - Lint PHP again (`phpmd`, `php-codesniffer` etc)
 - Add a `<label>` element or `title=` attribute to uploader in `index.swig` and
   `nojs.swig`
 - Fix/add handling for temporary files for which uploads have failed (remove or
   move them)
-- Change or remove suggested web browsers to install in `check_fileapi.swig`
-  - Chrome is a non-free web browser. Chromium is free/libre software.
-  - Firefox suggests installing non-free addons. GNU IceCat does not.
 
 ### Release `2.2.0`
 
@@ -54,6 +49,11 @@
 - Incorporate alchimist's SHA256 hashing to replace SHA1
 - Add SQLite support
 - Increase visibility of contact and copyright takedown pages
+- Create a better `CONTRIBUTING.md` file
+- Finish rewriting the FAQ into a `<dl>` description list
+- Change or remove suggested web browsers to install in `check_fileapi.swig`
+  - Chrome is a non-free web browser. Chromium is free/libre software.
+  - Firefox suggests installing non-free addons. GNU IceCat does not.
 
 ### Release `3.0.0`
 
