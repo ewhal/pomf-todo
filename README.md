@@ -9,6 +9,10 @@
 
 ### Release `2.1.0`
 
+**Note:** No more new or changed features into this release, please. I don't
+want the size of this release to grow too uncomfortable with the workload we're
+facing in here.
+
 - Clean up CSS
   - Use CSSLint for example, but don't blindly follow it
   - Related: Replace `#upload-btn` with `.js-upload-btn` or HTML data attributes
