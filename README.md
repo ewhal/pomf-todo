@@ -24,6 +24,7 @@
   - Rearchitecture styles into base stylesheets (`layout.css`), components
     (`alerts.css`, `buttons.css`, `nav.css`) and modules (`header.css`,
     `footer.css`), then integrate into build system for concatenation
+  - Deprecate or remove unused selectors like `.jumbotron .btn.drop`
 - Clean up and refactor Luminarys' new JavaScript
   - Finish writing up JSDoc comments (`luminarys/refactor-js-pu`)
   - Reimplement `no-file-api`
