@@ -77,6 +77,8 @@
     filename `POMF_FILES_ROOTabcdef.ext` if `POMF_FILES_ROOT` is undefined.
 - Reduce default `{{max_upload_size}}` back to original `50 MiB` or a more
   common `100 MiB` used with CloudFlare setups
+- Rename `pages/` into `templates/` or `views/` to better describe what the
+  folder really is
 
 ### Release `4.0.0`
 
