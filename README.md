@@ -35,6 +35,7 @@ facing in here.
   - Stop hardcoding original button text, grab it from the HTML element
   - Set `XMLHttpRequest.open()` URL to `form.action` (`HTMLFormElement.action`)
     instead of hardcoding `'/upload.php'`
+  - Stop abusing HTML anchor elements for `<a>$errorMessage</a>`
 - Lint PHP again (`phpmd`, `php-codesniffer` etc)
 - Add a `<label>` element or `title=` attribute to uploader in `index.swig` and
   `nojs.swig`
