@@ -87,6 +87,8 @@ facing in here.
   common `100 MiB` used with CloudFlare setups
 - Rename `pages/` into `templates/` or `views/` to better describe what the
   folder really is
+- Consider using `xhr.responseType = 'json';` with caution for browser
+  compatibility
 
 ### Release `4.0.0`
 
