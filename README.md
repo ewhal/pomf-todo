@@ -89,6 +89,7 @@ facing in here.
   folder really is
 - Consider using `xhr.responseType = 'json';` with caution for browser
   compatibility
+- Remove `ENGINE=InnoDB;` from SQL schema, let the default engine be decisive
 
 ### Release `4.0.0`
 
