@@ -2,17 +2,8 @@
 
 ## pantsu/pomf
 
-### Release `2.0.3`
-
+### Release `3.0.0`
 - Replace potentially non-free `UploadException.class.php`
-- Fix abbreviation of `<3` in `check_fileapi.swig`
-
-### Release `2.1.0`
-
-**Note:** No more new or changed features into this release, please. I don't
-want the size of this release to grow too uncomfortable with the workload we're
-facing in here.
-
 - Clean up CSS
   - Use CSSLint for example, but don't blindly follow it
   - Related: Replace `#upload-btn` with `.js-upload-btn` or HTML data attributes
@@ -42,7 +33,6 @@ facing in here.
 - Fix/add handling for temporary files for which uploads have failed (remove or
   move them)
 
-### Release `2.2.0`
 
 - Add exception handling (`try{}`) to initial database connection
 - More tests
@@ -60,10 +50,6 @@ facing in here.
 - Change or remove suggested web browsers to install in `check_fileapi.swig`
   - Chrome is a non-free web browser. Chromium is free/libre software.
   - Firefox suggests installing non-free addons. GNU IceCat does not.
-
-### Release `3.0.0`
-
-- Remove Gyazo response
 - Merge Wub's `application/vnd.api+json` patch
 - Implement protection against Cross-Site Request Forgeries
 - Refactor PHP code by adding namespaces
@@ -75,11 +61,8 @@ facing in here.
     breakage with NPM version `6.0.x` and later.
 - Rewrite JavaScript to ES6 using eslint-config-airbnb
   - Our build system may not support ES6. Does it?
-- Replace `nojs.html` with `<noscript>`-like fallback
 - Merge alchimist's `expire` removal from MySQL schema and `upload.php`
 - Remove `ob_start`
-- Split `upload.php` into a common file class for file functions and the
-  last ~15 lines of code for handling the upload and response
 - Seperate default settings and local settings
   - This will also avoid an issue where files are uploaded to webroot with
     filename `POMF_FILES_ROOTabcdef.ext` if `POMF_FILES_ROOT` is undefined.
@@ -92,34 +75,8 @@ facing in here.
 - Remove `ENGINE=InnoDB;` from SQL schema, let the default engine be decisive
 
 ### Release `4.0.0`
-
-- Rewrite upload API
-  - Decide if `status` / `errorcodes` are bad or not
-    - Use HTTP responses like any sane API, don't reinvent the wheel
-  - Move to an api-subdomain (e.g. <https://api.pantsu.cat/files/>)
-  - Don't forget the more obscure HTTP methods such as `OPTIONS`
-  - Consider adding JSON-P response type
 - Add internationalization support
   - May require swapping Swig templates for Mustache or Handlebars
-
-## pantsu/docs
-
-- Document the API
-  - <http://bradfults.com/the-best-api-documentation/>
-- JSDoc
-- Getting help
-- Quick start
-- …
-
-## pantsu/status
-
-- Research status software, find beautiful examples
-- Create a status page
-
-## pantsu/api
-
-- Research if this is an ethical issue (SaaSS)
-- Start creating an API for searching and other stuff
 
 ## pantsu/pomfload
 
@@ -130,26 +87,3 @@ facing in here.
 - Create an OpenBSD `Makefile`
 - Add to OpenBSD ports
 
-## pantsu/uguu
-
-- …
-
-## wubthecaptain/fuuka
-
-- Publish Git repository
-- Apply patches to replicate what's at Rebecca Black Tech
-- Inform eksopl of the new Git repository
-- Read `BUGS.txt` and cry ;\_;
-  - Fix arbitrary redirection vulnerability
-- Essentially rewrite the dumper for 4chan API
-  - Perl?
-  - Go?
-- …
-
-## Pantsu.cat sysadmin tasks
-
-- Setup a mailing list
-  - GNU Mailman
-  - OpenSMTPd
-- Add IPv6 support
-- Distribute services across multiple IPv4-addresses
