@@ -16,13 +16,9 @@
       Standard, 1.7.3 Extensibility).
   - Use flexbox
   - <http://philipwalton.com/articles/css-architecture/>
-  - Rearchitecture styles into base stylesheets (`layout.css`), components
-    (`alerts.css`, `buttons.css`, `nav.css`) and modules (`header.css`,
-    `footer.css`), then integrate into build system for concatenation
   - Deprecate or remove unused selectors like `.jumbotron .btn.drop`
 - Clean up and refactor Luminarys' new JavaScript
   - Finish writing up JSDoc comments (`luminarys/refactor-js-pu`)
-  - Reimplement `no-file-api`
   - Stop hardcoding original button text, grab it from the HTML element
   - Set `XMLHttpRequest.open()` URL to `form.action` (`HTMLFormElement.action`)
     instead of hardcoding `'/upload.php'`
@@ -32,8 +28,6 @@
   `nojs.swig`
 - Fix/add handling for temporary files for which uploads have failed (remove or
   move them)
-
-
 - Add exception handling (`try{}`) to initial database connection
 - More tests
   - CSS
@@ -47,18 +41,12 @@
 - Increase visibility of contact and copyright takedown pages
 - Create a better `CONTRIBUTING.md` file
 - Finish rewriting the FAQ into a `<dl>` description list
-- Change or remove suggested web browsers to install in `check_fileapi.swig`
-  - Chrome is a non-free web browser. Chromium is free/libre software.
-  - Firefox suggests installing non-free addons. GNU IceCat does not.
 - Merge Wub's `application/vnd.api+json` patch
 - Implement protection against Cross-Site Request Forgeries
 - Refactor PHP code by adding namespaces
 - Remove Grunt and its dependencies
   - Replace with Make or something more sane
   - <http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/>
-  - **I urge to hurry with this.** `grunt-swig` requires an older `0.4.x`
-    version of Grunt which I assume is no longer supported. Expected package
-    breakage with NPM version `6.0.x` and later.
 - Rewrite JavaScript to ES6 using eslint-config-airbnb
   - Our build system may not support ES6. Does it?
 - Merge alchimist's `expire` removal from MySQL schema and `upload.php`
@@ -68,8 +56,6 @@
     filename `POMF_FILES_ROOTabcdef.ext` if `POMF_FILES_ROOT` is undefined.
 - Reduce default `{{max_upload_size}}` back to original `50 MiB` or a more
   common `100 MiB` used with CloudFlare setups
-- Rename `pages/` into `templates/` or `views/` to better describe what the
-  folder really is
 - Consider using `xhr.responseType = 'json';` with caution for browser
   compatibility
 - Remove `ENGINE=InnoDB;` from SQL schema, let the default engine be decisive
