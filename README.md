@@ -44,13 +44,9 @@
 - Merge Wub's `application/vnd.api+json` patch
 - Implement protection against Cross-Site Request Forgeries
 - Refactor PHP code by adding namespaces
-- Remove Grunt and its dependencies
-  - Replace with Make or something more sane
-  - <http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/>
 - Rewrite JavaScript to ES6 using eslint-config-airbnb
   - Our build system may not support ES6. Does it?
 - Merge alchimist's `expire` removal from MySQL schema and `upload.php`
-- Remove `ob_start`
 - Seperate default settings and local settings
   - This will also avoid an issue where files are uploaded to webroot with
     filename `POMF_FILES_ROOTabcdef.ext` if `POMF_FILES_ROOT` is undefined.
